@@ -1,0 +1,333 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+html, body {
+  padding: 5px;
+}
+
+.container {
+  font-size: 0px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 8px #00bcb6;
+  border-radius: 5px;
+}
+
+.block {
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.aa {
+  width: 2%;
+}
+
+.a {
+  width: 20%;
+  background-color: #efefef;
+}
+.a .personal {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 25px;
+}
+.a .personal .headphoto {
+  width: 105px;
+  height: 135px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://i.imgur.com/rBP8ytb.png");
+  background-size: cover;
+}
+.a .personal .name h1.chiname {
+  color: #4d4d4d;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.a .personal .name h1.engname {
+  color: #4d4d4d;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+}
+.a .aboutme {
+  width: 100%;
+  display: inline-block;
+}
+.a .aboutme h2 {
+  margin: 0px;
+  padding: 20px 0px 20px 10px;
+  color: #006575;
+  font-size: 22px;
+}
+.a .aboutme .con {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding: 20px 10px 40px 10px;
+}
+.a .personal_info {
+  width: 100%;
+  display: inline-block;
+  background-color: #cccccc;
+  height: 130px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.a .personal_info i {
+  width: 12px;
+  height: 12px;
+  margin-left: 14px;
+}
+.a .personal_info p {
+  margin-top: 25px;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ab {
+  width: 8%;
+}
+
+.b {
+  width: 30%;
+  margin: 30px 0px 30px 0px;
+}
+.b .inschool h2 {
+  color: #006575;
+  font-size: 22px;
+  margin: 20px 0px 20px 0px;
+}
+.b .inschool .con {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.b .selflearn h2 {
+  color: #006575;
+  font-size: 22px;
+  margin: 20px 0px 20px 0px;
+}
+.b .selflearn .con {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.b .experience h2 {
+  color: #006575;
+  font-size: 22px;
+  margin: 20px 0px 20px 0px;
+}
+.b .experience .con {
+  border: solid 1px white;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.bc {
+  width: 8%;
+}
+
+.c {
+  width: 30%;
+  margin: 30px 0px 30px 0px;
+}
+.c h2 {
+  color: #006575;
+  font-size: 22px;
+}
+.c .con {
+  font-size: 16px;
+  line-height: 24px;
+}
+.c .skill .content {
+  width: 400px;
+  height: 250px;
+  color: #006575;
+}
+.c .skill .content .box {
+  display: inline-block;
+  margin: -3px;
+  line-height: 28px;
+}
+.c .skill .content .box .skillname {
+  padding-right: 8px;
+}
+.c .skill .content .skillbox {
+  margin-top: -3px;
+  margin-left: 5px;
+  border: solid 1px white;
+}
+.c .skill .content .skillbox .out {
+  width: 225px;
+  height: 12px;
+  border: solid 4px #006575;
+  border-radius: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.c .skill .content .skillbox.ps .out .in {
+  width: 191.25px;
+  height: 12px;
+  background-color: #006575;
+  border: solid 1px #006575;
+}
+.c .skill .content .skillbox.ai .out .in {
+  width: 180px;
+  height: 12px;
+  background-color: #006575;
+  border: solid 1px #006575;
+}
+.c .skill .content .skillbox.html .out .in {
+  width: 202.5px;
+  height: 12px;
+  background-color: #006575;
+  border: solid 1px #006575;
+}
+.c .skill .content .skillbox.css .out .in {
+  width: 202.5px;
+  height: 12px;
+  background-color: #006575;
+  border: solid 1px #006575;
+}
+.c .skill .content .skillbox.pug .out .in {
+  width: 202.5px;
+  height: 12px;
+  background-color: #006575;
+  border: solid 1px #006575;
+}
+.c .skill .content .skillbox.bootstrap .out .in {
+  width: 157.5px;
+  height: 12px;
+  background-color: #006575;
+  border: solid 1px #006575;
+}
+.c .skill .content .skillbox.js .out .in {
+  width: 90px;
+  height: 12px;
+  background-color: #006575;
+  border: solid 1px #006575;
+}
+.c .skill .content .skillbox.mysql .out .in {
+  width: 67.5px;
+  height: 12px;
+  background-color: #006575;
+  border: solid 1px #006575;
+}
+
+.cc {
+  width: 2%;
+}
+
+.d {
+  display: none;
+}
+
+@media screen and (max-width: 1320px) {
+  .aa {
+    display: none;
+  }
+
+  .ab, .cc {
+    width: 4%;
+  }
+
+  .bc {
+    width: 4%;
+  }
+
+  .a {
+    width: 100%;
+  }
+  .a .personal {
+    width: 35%;
+  }
+  .a .personal .headphoto {
+    margin-top: 30px;
+  }
+  .a .aboutme {
+    width: 60%;
+    padding: 40px 20px 20px 20px;
+  }
+  .a .personal_info {
+    display: none;
+  }
+  .a .personal_info p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .b {
+    width: 44%;
+  }
+
+  .c {
+    width: 44%;
+  }
+
+  .d {
+    display: inline-block;
+    width: 100%;
+    width: 100%;
+    display: inline-block;
+    background-color: #cccccc;
+    height: 130px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .d i {
+    width: 12px;
+    height: 12px;
+    margin-left: 14px;
+  }
+  .d p {
+    margin-top: 25px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 970px) {
+  .aa, .ab, .bc, .cc {
+    display: none;
+  }
+
+  .a, .b, .c, .d {
+    width: 100%;
+  }
+
+  .b, .c {
+    padding: 0px 30px 0px 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .aa, .ab, .bc, .cc {
+    display: none;
+  }
+
+  .a, .b, .c, .d {
+    width: 100%;
+  }
+
+  .a .personal {
+    width: 100%;
+  }
+  .a .aboutme {
+    width: 100%;
+  }
+
+  .b, .c {
+    padding: 0px 15px 0px 15px;
+  }
+}
